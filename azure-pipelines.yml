@@ -12,6 +12,7 @@ pool: test
 
 steps:
 
+- 
 - task: Maven@4
   inputs:
     mavenPomFile: 'pom.xml'
